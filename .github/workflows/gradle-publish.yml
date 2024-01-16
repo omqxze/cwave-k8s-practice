@@ -8,7 +8,7 @@ on: #언제 파이프라인을 움직일거냐
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: 1. CheckOut Source #저 우분투 vm에 소스코드를 받아옴
