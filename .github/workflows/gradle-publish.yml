@@ -30,7 +30,7 @@ jobs:
       with:
         host port: 3306 #default가 3306임
         container port: 3306
-        mysql version: 8.0
+        mysql version: '8.0'
         mysql database: 'istory'
         mysql root password: ${{ secrets.MYSQL_ROOT_PASSWORD }}
         mysql user: ${{ secrets.MYSQL_USER }}
